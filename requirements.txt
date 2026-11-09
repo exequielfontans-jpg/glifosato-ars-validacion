@@ -1,0 +1,9 @@
+# auditar_estandarizacion_v1.py, validar_conjunto_documental_v1.py,
+# cruzar_publit_wos_v2.py, cruzar_autores_publit_v3.py
+openpyxl>=3.1.0
+
+# extraer_publit_v3.py
+pdfplumber>=0.10.0
+
+# extraer_corpus_gtf_v2.py
+requests>=2.31.0

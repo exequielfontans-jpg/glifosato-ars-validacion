@@ -1,0 +1,63 @@
+====================================================================
+  [AUDITORIA DE LA ESTANDARIZACION] - auditar_estandarizacion_v1
+  Fecha: 2026-11-06 17:56
+  Cruce de origen: cruce_publit_v2.csv
+====================================================================
+
+  POBLACION DEL CALCULO
+    Entradas apareadas de la lista          : 749
+    Publicaciones distintas                 : 708  (-41 entradas repetidas)
+    En la ventana 2001-2012                 : 700  (-8 fuera de ventana)
+
+  COMPARACION CRUDA
+    Entradas con >=1 autor de Zona 1        : 123 / 749 = 16.4%
+    Publicaciones con >=1 autor de Zona 1   : 114 / 700 = 16.3%
+    Linea de base WoS 2001-2012            : 1,269 / 4,033 = 31.5%
+    Chi-cuadrado de Yates, sobre entradas   : 68.55
+    Chi-cuadrado de Yates, sobre publicac.  : 65.72   <- valor a reportar
+
+  ESTANDARIZACION INDIRECTA POR AREA TEMATICA
+    Areas con tasa utilizable (>=20 en base) : 34
+    Instancias area-publicacion             : 1,162
+    Tasa esperada ponderada por instancias  : 22.8%
+    Observados                              : 114
+    Esperados  (N x T)                      : 159.7
+    Razon observado / esperado              : 0.71
+
+  SENSIBILIDAD AL TRATAMIENTO DE CATEGORIAS MULTIPLES
+    Ponderando por instancia area-publicacion : razon 0.71
+    Ponderando por publicacion                : razon 0.75
+
+  TABLA 3 DEL ARTICULO (22 areas mostradas)
+    area                                             n     %z1    o/e
+    Environmental Sciences                         281    9.3%   0.96
+    Toxicology                                     180    8.3%   0.56
+    Agronomy                                        96   38.5%   0.72
+    Plant Sciences                                  76   42.1%   0.82
+    Soil Science                                    56   14.3%   1.05
+    Entomology                                      50   22.0%   0.53
+    Public, Environmental & Occupational Health     48   18.8%   1.25
+    Agriculture, Multidisciplinary                  46   47.8%   1.23
+    Ecology                                         37    8.1%   0.63
+    Food Science & Technology                       30   53.3%   1.16
+    Biochemistry & Molecular Biology                29   10.3%   0.50 *
+    Biotechnology & Applied Microbiology            27    3.7%   0.23 *
+    Engineering, Environmental                      26    7.7%   2.31 *
+    Chemistry, Applied                              26   65.4%   1.22 *
+    Water Resources                                 25   12.0%   1.24 *
+    Microbiology                                    15    6.7%   0.55 *
+    Pharmacology & Pharmacy                         14    7.1%   0.34 *
+    Chemistry, Multidisciplinary                    13    7.7%   0.24 *
+    Chemistry, Analytical                           12    8.3%   1.81 *
+    Marine & Freshwater Biology                     12    0.0%   0.00 *
+    Genetics & Heredity                             11    0.0%   0.00 *
+    Physiology                                      10   30.0%   0.82 *
+    Total (todas las areas)                        700   16.3%   0.71
+
+  NOTA: las areas se solapan, de modo que las filas no suman al total.
+        Las razones calculadas sobre menos de 30 publicaciones (*)
+        son inestables y se incluyen con fines descriptivos.
+
+  Archivos generados:
+    estandarizacion_auditoria_v1.xlsx
+    reporte_auditar_estandarizacion.txt

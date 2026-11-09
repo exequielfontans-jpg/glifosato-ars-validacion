@@ -1,0 +1,34 @@
+================================================================
+  [CRUCE GTF x WoS] - cruzar_gtf_wos_v2
+  Fecha: 2026-08-14 12:37
+================================================================
+
+  APAREO
+    Referencias del GTF            : 548
+    Apareadas contra la base WoS   : 435 (79.4%)
+    No apareadas                   : 113 (20.6%)
+
+    Metodo de apareo:
+      DOI                    258  (59.3%)
+      TITULO_EXACTO          173  (39.8%)
+      TITULO_DIFUSO            4  (0.9%)
+
+  RESULTADO PRINCIPAL
+    Articulos del GTF con >=1 autor de Zona 1 : 69 / 435 = 15.9%
+    Linea de base WoS 2001-2012            : 1,269 / 4,033 = 31.5%
+
+    Chi-cuadrado (Yates) : 54.24   DIFERENCIA SIGNIFICATIVA (p<0.05)
+
+  AUTORES
+    Instancias de autor en el corpus apareado : 1,872
+    De Zona 1                                 : 137 (7.3%)
+
+  Archivos generados:
+    cruce_gtf_wos_v2.xlsx   <- abrir este para revisar
+    cruce_gtf_wos_v2.csv
+    autores_gtf_v2.csv
+    reporte_cruzar_gtf_wos.txt
+
+  NOTA: revisar manualmente las filas con metodo TITULO_DIFUSO antes
+        de dar los resultados por definitivos.
+

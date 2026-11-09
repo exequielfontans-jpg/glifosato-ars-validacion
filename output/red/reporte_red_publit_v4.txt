@@ -1,0 +1,90 @@
+================================================================
+  [RED DE COAUTORIA] - red_coautoria_publit_v4
+  Fecha: 2026-08-29 15:52
+================================================================
+
+  Nodos (autores)        : 3,118
+  Aristas (coautorias)   : 8,354
+  Densidad               : 0.00172
+  Grado medio            : 5.36
+  Grado maximo           : 61
+  Nodos aislados         : 37
+
+  Componentes            : 505
+  Componente gigante     : 432 nodos (13.9%)
+
+  Por grupo de vinculacion:
+    grupo               nodos       %  grado medio  arts medios  % en gigante
+    CONTROL                 6    0.2%         5.33         2.50         33.3%
+    ZONA_1                158    5.1%         6.77         2.04         40.5%
+    ZONA_2              1,906   61.1%         5.19         1.57         10.0%
+    SIN_INFORMACION     1,048   33.6%         5.46         1.17         16.8%
+
+  PERFIL COMPARADO DE LOS CUATRO GRUPOS (Tabla 5)
+    grupo             autores   arts  coaut  gigante  cit.obra  cit.exped
+    CONTROL                 6   2.50   5.33    33.3%      18.0        205
+    ZONA_1                158   2.04   6.77    40.5%     11.75         17
+    ZONA_2              1,906   1.57   5.19    10.0%      14.0       18.0
+    SIN_INFORMACION     1,048   1.17   5.46    16.8%      13.5       15.0
+
+    arts      : articulos del expediente por autor (media)
+    coaut     : coautores distintos por autor (media)
+    gigante   : porcentaje del grupo en el componente principal
+    cit.obra  : mediana de la citacion mediana de toda la obra
+                del autor en la base de 2018
+    cit.exped : idem, restringido a sus articulos del expediente
+
+    Autores con citacion disponible (presentes en la base 2018):
+      CONTROL                6 de 6
+      ZONA_1               158 de 158
+      ZONA_2              1906 de 1,906
+      SIN_INFORMACION      140 de 1,048
+
+  CENTRALIDAD POR GRUPO
+    grupo              grado  fuerza   clust    interm  %int>0  int.gig
+    CONTROL             5.33    9.17   0.892    4019.9   16.7%  12059.6
+    ZONA_1              6.77    9.13   0.813    1258.7   34.2%   3085.8
+    ZONA_2              5.19    6.63   0.842     151.4   20.1%   1439.3
+    SIN_INFORMACION     5.46    5.91   0.876     124.2    7.5%    736.5
+
+    grado   : coautores distintos (media)
+    fuerza  : grado ponderado por trabajos en comun (media)
+    clust   : coeficiente de clustering local (media)
+    interm  : intermediacion sobre el grafo completo (media)
+    %int>0  : porcentaje del grupo con intermediacion no nula
+    int.gig : intermediacion media dentro del componente principal
+
+  GRUPO DE CONTROL, CASO POR CASO
+    (con seis autores no corresponde una mediana de grupo;
+     se reporta la posicion de cada uno en la distribucion)
+
+    autor                 arts  coaut  cit.obra   pctil  cit.exp   pctil
+    SOLOMON, KR             10     15      12.5    45.5     26.0    66.5
+    ACQUAVELLA, J            1      5        17    59.6                 
+    KIER, LD                 1      6       7.5    29.9        6    15.9
+    WILLIAMS, GM             1      2       205    99.5      205    99.8
+    KROES, R                 1      2       205    99.5      205    99.8
+    MUNRO, IC                1      2        19    62.9      205    99.8
+
+    Valores de referencia (citacion de la obra completa):
+      autores con citacion disponible : 2,210
+      mediana general                 : 14.0
+      mediana Zona 1                  : 11.75
+      mediana Zona 2                  : 14.0
+      mediana general (expediente)    : 17.0
+
+  Sugerencia para Gephi:
+    abrir red_publit_v4.gexf, aplicar ForceAtlas2 con 'Prevent
+    Overlap', colorear los nodos por el atributo 'grupo' y
+    dimensionarlos por 'n_articulos'. Filtrar por componente
+    gigante si la periferia de diadas dificulta la lectura.
+
+  Archivos generados:
+    red_publit_v4.gexf   <- abrir este en Gephi
+    perfil_grupos_publit_v4.csv   <- Tabla 5 del articulo
+    control_citacion_publit_v4.csv
+    centralidad_grupos_publit_v4.csv
+    nodos_publit_v4.csv
+    aristas_publit_v4.csv
+    reporte_red_publit_v4.txt
+

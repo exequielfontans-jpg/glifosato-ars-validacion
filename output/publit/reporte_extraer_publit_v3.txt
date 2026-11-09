@@ -1,0 +1,77 @@
+================================================================
+  [PUBLIT] - extraer_publit_v1
+  Fecha: 2026-11-09 18:20
+================================================================
+
+  PDF procesados      : 8
+  Paginas de tabla    : 183
+  Referencias         : 1,768
+  Con DOI             : 688 (38.9%)
+  Sin categoria       : 690 (39.0%)
+
+  Por presentacion:
+    2012         1078  (61.0%)
+    2020          690  (39.0%)
+
+  Por seccion:
+    Destino ambiental               466  (26.4%)
+    Ecotoxicología                  627  (35.5%)
+    Metabolismo y residuos           60  (3.4%)
+    Toxicología                     615  (34.8%)
+
+  Por categoria (transcripta del PDF, sin interpretar):
+    1                                                 697  (39.4%)
+    (vacia)                                           690  (39.0%)
+    2                                                 212  (12.0%)
+    3                                                  99  (5.6%)
+    3 E                                                23  (1.3%)
+    E                                                  11  (0.6%)
+    2 E                                                10  (0.6%)
+    1 E                                                 6  (0.3%)
+    3 (8.16) 2 (5.10)                                   4  (0.2%)
+    2 (8.16) 1 (5.10)                                   3  (0.2%)
+    1 (8.16) 2 (5.10)                                   2  (0.1%)
+    2 (8.16) 3 (5.10) E                                 2  (0.1%)
+    3 (8.16) 2 (5.10) E                                 2  (0.1%)
+    2 (8.16) 1 (7.13)                                   1  (0.1%)
+    1 (8.16) 2 (7.13)                                   1  (0.1%)
+    ... y 5 valores mas (ver hoja Referencias del xlsx)
+
+  Marca de evaluacion:
+    K               194  (11.0%)
+    T                 5  (0.3%)
+    K T               1  (0.1%)
+    (sin marca)    1568  (88.7%)
+
+  Filas con columnas no reconocidas : 690 (39.0%)
+    Ver el campo 'columnas_extra' para decidir si aportan algo.
+
+  Columnas detectadas por archivo:
+    2012_PubLit_Referencelist_Ecotoxicology_Sect     478 refs
+      -> annex_point=0, autores=1, anio=2, cita=3, categoria=4, evaluacion=5
+    2012_PubLit_Referencelist_Environmental-Fate     295 refs
+      -> annex_point=0, autores=1, anio=2, cita=3, categoria=4, evaluacion=5
+    2012_PubLit_Referencelist_Metabolism-and-Res      20 refs
+      -> annex_point=0, autores=1, anio=2, cita=3, categoria=4, evaluacion=5
+    2012_PubLit_Referencelist_Toxicology_Section     285 refs
+      -> annex_point=0, autores=1, anio=2, cita=3, categoria=4, evaluacion=5
+    2020_PubLit_Referencelist_Ecotoxicology_Sect     149 refs
+      -> autores=1, anio=2, cita=3, fuente_col=4
+    2020_PubLit_Referencelist_Efate_Section_05_G     171 refs
+      -> autores=1, anio=2, cita=3, fuente_col=4
+    2020_PubLit_Referencelist_Residues_Section_0      40 refs
+      -> autores=1, anio=2, cita=3, fuente_col=4
+    2020_PubLit_Referencelist_Toxicology_Secctio     330 refs
+      -> autores=1, anio=2, cita=3, fuente_col=4
+
+  Filas repetidas entre archivos : 129 (7.3%)
+  Referencias unicas (por clave) : 1,703
+
+  NOTA: el campo 'categoria' se transcribe tal cual del PDF.
+        Verificar la leyenda de codigos antes de interpretarlo.
+
+  Archivos generados:
+    publit_v3.xlsx
+    publit_v3.csv
+    reporte_extraer_publit_v3.txt
+

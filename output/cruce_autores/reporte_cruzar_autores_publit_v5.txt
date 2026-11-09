@@ -1,0 +1,129 @@
+====================================================================
+  [CRUCE AUTORES PUBLIT] - cruzar_autores_publit_v5
+  Fecha: 2026-11-09 16:15
+====================================================================
+
+  ADVERTENCIA: tasa DE AUTORES, no de articulos. No comparable con
+  la linea de base por articulo del cruce anterior.
+
+  Instancias de autor : 4,549
+  Autores unicos      : 3,118
+
+  Instancias por zona:
+    Zona 1               325  (7.1%)
+    Zona 2             3,002  (66.0%)
+    Sin clasificar     1,222  (26.9%)
+
+  Autores unicos por zona:
+    Zona 1               160  (5.1%)
+    Zona 2             1,910  (61.3%)
+    Sin clasificar     1,048  (33.6%)
+
+  Por seccion (instancias):
+    valor                           total   Zona 1       %
+    Ecotoxicología                  1,893      161    8.5%
+    Toxicología                     1,371       71    5.2%
+    Destino ambiental               1,200       81    6.8%
+    Metabolismo y residuos             85       12   14.1%
+
+  Por marca de evaluacion (instancias):
+    valor                           total   Zona 1       %
+    (sin dato)                      3,672      287    7.8%
+    K                                 852       38    4.5%
+    T                                  23        0    0.0%
+    K T                                 2        0    0.0%
+
+  ARTICULOS POR GRUPO (por zona del autor)
+    grupo                       n        %
+    ZONA_1                    143    13.3%
+    ZONA_2                    803    74.5%
+    SIN_INFORMACION           132    12.2%
+
+  CONJUNTO DOCUMENTAL EN EL CORPUS
+    Articulos con autor del conjunto  : 21
+      con al menos un autor de Zona 1 : 14  (66.7%)
+      sin ningun autor de Zona 1      : 7  (33.3%)
+
+  Articulos con vinculo acreditado  : 150 (13.9%)
+    detectados por el criterio      : 143
+    invisibles al criterio          : 7
+    proporcion que el criterio NO ve: 4.7%
+
+  Autores del conjunto documental presentes en el corpus:
+    autor                        zona   refs  arts WoS
+    ACQUAVELLA, J                   1      1         1
+    ACQUAVELLA, JF                  1      8         6
+    KIER, LD                        1      1         4
+    KROES, R                        2      1         1
+    MUNRO, IC                       2      1         3
+    SOLOMON, KR                     2     10        14
+    WILLIAMS, GM                    2      1         1
+
+  Articulos invisibles al criterio, uno por uno:
+      2000  KROES, R; MUNRO, IC; WILLIAMS, GM          Toxicología
+            Safety evaluation and risk assessment of the herbicide Roundup and its active ingredie
+      2007  SOLOMON, KR                                Ecotoxicología
+            Coca and poppy eradication in Colombia: environmental and human health assessment of a
+      2007  SOLOMON, KR                                Toxicología
+            Coca and poppy eradication in Colombia: environmental and human health assessment of a
+      2009  SOLOMON, KR                                Ecotoxicología
+            Toxicity of formulated glyphosate (glyphos) and cosmo-flux to larval and juvenile colo
+      2009  SOLOMON, KR                                Ecotoxicología
+            Toxicity of formulated glyphosate (glyphos) and cosmo-flux to larval Colombian frogs 1
+      2009  SOLOMON, KR                                Toxicología
+            Biomonitoring of genotoxic risk in agricultural workers from five colombian regions: a
+      2009  SOLOMON, KR                                Toxicología
+            Regional Differences in Time to Pregnancy Among Fertile Women from Five Colombian Regi
+
+  Articulos por marca de evaluacion:
+    valor                       total   Zona 1   invis.
+    (sin dato)                    878      120        6
+    K                             194       23        1
+    T                               5        0        0
+    K T                             1        0        0
+
+  Articulos por categoria del PDF:
+    valor                       total   Zona 1   invis.
+    1                             697      107        2
+    2                             212       28        2
+    3                              99        3        0
+    3 E                            23        1        0
+    E                              11        0        1
+    2 E                            10        1        0
+    1 E                             6        1        0
+    3 (8.16) 2 (5.10)               4        0        0
+    2 (8.16) 1 (5.10)               3        0        1
+    1 (8.16) 2 (5.10)               2        0        0
+
+  Articulos con apareo dudoso : 43 (4.0%)
+    (clasificados por un apellido frecuente; revisar a mano)
+
+  Autores marcados para revision : 319 (10.2%)
+    APELLIDO_FRECUENTE              294
+    VARIAS_FORMAS                    14
+    SIN_INICIALES                     6
+    VARIAS_FORMAS+APELLIDO_FRECUENTE      5
+
+  Autores mas frecuentes en el corpus:
+    autor                        refs             zona  arts WoS
+    HOPPIN, JA                     21                2         4
+    SANDLER, DP                    19                2         5
+    REDDY, KN                      18                1        90
+    KREMER, RJ                     17                2        23
+    ALAVANJA, MC                   16                2         5
+    ZABLOTOWICZ, RM                13                2        22
+    DUKE, SO                       12                1        60
+    RELYEA, RA                     11                2        11
+    SOLOMON, KR                    10                2        14
+    TUFFI, SLD                     10                2         7
+    FERREIRA, FA                   10                2        25
+    BORGGAARD, OK                   9                2        13
+    BARRIUSO, E                     9                2        16
+    ZOBIOLE, LHS                    9                1        16
+    BLAIR, A                        9                2         2
+
+  Archivos generados:
+    cruce_autores_publit_v5.xlsx   <- abrir este para revisar
+    cruce_autores_publit_v5.csv
+    reporte_cruzar_autores_publit_v5.txt
+

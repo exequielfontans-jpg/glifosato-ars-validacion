@@ -1,0 +1,42 @@
+{
+  "upload_type": "software",
+  "title": "Validación de un procedimiento de atribución estructural de vinculación corporativa: el expediente europeo del glifosato",
+  "language": "spa",
+  "version": "1.0.0",
+  "license": {"id": "mit"},
+  "creators": [
+    {
+      "name": "Fontans-Álvarez, Exequiel",
+      "affiliation": "Departamento Tratamiento y Transferencia de Información, Facultad de Información y Comunicación, Universidad de la República",
+      "orcid": "0000-0002-4627-4678"
+    },
+    {
+      "name": "Sosa, Beatriz",
+      "affiliation": "Instituto de Ecología y Ciencias Ambientales, Facultad de Ciencias, Universidad de la República",
+      "orcid": "0000-0002-9259-0516"
+    }
+  ],
+  "description": "<p>Código y resultados derivados del artículo que evalúa la validez del procedimiento de atribución estructural de vinculación corporativa propuesto en Fontans-Álvarez et al. (2018), aplicado a la lista de literatura publicada del expediente europeo de renovación del glifosato de 2012.</p><p>El procedimiento asigna vinculación corporativa a partir de la estructura de la red de coautoría: la Zona 1 reúne a los autores que declararon afiliación a una de las empresas consideradas y a quienes firmaron ese mismo artículo junto a ellos. El repositorio permite reproducir la evaluación de ese criterio contra un conjunto de validación construido con avisos editoriales publicados, y mide su sensibilidad a nivel de autor y de artículo.</p><p>Incluye los scripts de cada etapa del pipeline, el informe estadístico de cada corrida, la correspondencia entre cada tabla del artículo y la salida que la genera, y las planillas auditables de la estandarización indirecta y de la validación documental.</p><p><strong>Nota sobre los datos:</strong> la base bibliográfica de origen proviene de una descarga de la Web of Science y no puede redistribuirse por estar sujeta a la licencia de Clarivate. El repositorio documenta la estrategia de búsqueda, de modo que la descarga es reconstruible con acceso institucional a esa base. Las listas del expediente son documentos públicos y sí se incluyen.</p>",
+  "keywords": [
+    "análisis de redes sociales",
+    "redes de coautoría",
+    "bibliometría",
+    "conflicto de interés",
+    "vinculación corporativa",
+    "glifosato",
+    "evaluación regulatoria"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1080/10408444.2018.1522175",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/j.yrtph.2025.106006",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Los resultados derivados de output/ se distribuyen bajo CC BY 4.0; el código de scripts/ bajo licencia MIT."
+}

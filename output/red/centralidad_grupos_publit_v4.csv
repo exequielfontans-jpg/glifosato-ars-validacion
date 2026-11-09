@@ -1,0 +1,5 @@
+﻿grupo,autores,grado_medio,grado_mediana,fuerza_media,clustering_medio,interm_media,interm_mediana,pct_interm_no_nula,n_en_gigante,interm_media_gigante
+CONTROL,6,5.33,3.5,9.17,0.892,4019.9,0.0,16.7,2,12059.6
+ZONA_1,158,6.77,6.0,9.13,0.813,1258.7,0.0,34.2,64,3085.8
+ZONA_2,1906,5.19,4.0,6.63,0.842,151.4,0.0,20.1,190,1439.3
+SIN_INFORMACION,1048,5.46,5.0,5.91,0.876,124.2,0.0,7.5,176,736.5

@@ -1,0 +1,74 @@
+====================================================================
+  [VALIDACION DOCUMENTAL] - validar_conjunto_documental_v4
+  Fecha: 2026-11-09 17:22
+  Cruce de origen: cruce_publit_v2.csv
+====================================================================
+  CONJUNTO DE VALIDACION
+    Autores del conjunto                    : 18
+    Presentes en la red de 2018             : 9
+    Ausentes (no inciden en ninguna cifra)  : 9
+  SENSIBILIDAD A NIVEL DE AUTOR
+    Detectados (Zona 1)                     : 3 de 9 = 33.3%
+    No detectados (Zona 2)                  : 6
+    Excluyendo a Kroes, R.                : 3 de 8 = 37.5%
+    Detalle de los autores presentes en la red:
+      Acquavella, J. F.      Zona 1  Empleo en la empresa
+      Greim, H.              Zona 1  Consultoria u honorarios
+      Kier, L. D.            Zona 1  Empleo en la empresa
+      Kirkland, D. J.        Zona 2  Consultoria u honorarios
+      Kroes, R.              Zona 2  Autoria no declarada
+      Munro, I. C.           Zona 2  Consultoria u honorarios
+      Solomon, K. R.         Zona 2  Consultoria u honorarios
+      Sorahan, T.            Zona 2  Consultoria u honorarios
+      Williams, G. M.        Zona 2  Consultoria u honorarios
+  SENSIBILIDAD A NIVEL DE ARTICULO
+    Articulos con autor documentado         : 16
+    Detectados por tener un autor de Zona 1 : 10 = 62.5%
+    Invisibles al criterio estructural      : 6
+    Articulos invisibles al criterio:
+      2000  WILLIAMS, GM, KROES, R, MUNRO, IC
+            Safety evaluation and risk assessment of the herbicide Roundup and its active ingredie
+      2007  SOLOMON, KR
+            Coca and poppy eradication in Colombia: Environmental and human health assessment of a
+      2009  SOLOMON, KR
+            Toxicity of Formulated Glyphosate (Glyphos) and Cosmo-Flux to Larval and Juvenile Colo
+      2009  SOLOMON, KR
+            Regional Differences in Time to Pregnancy Among Fertile Women from Five Colombian Regi
+      2009  SOLOMON, KR
+            Toxicity of Formulated Glyphosate (Glyphos) and Cosmo-Flux to Larval Colombian Frogs 1
+      2009  SOLOMON, KR
+            Biomonitoring of Genotoxic Risk in Agricultural Workers from Five Colombian Regions: A
+  PROPORCION DEL VINCULO NO DETECTADA (Tabla 7)
+    corpus                                   publ.  Zona 1  no det.   total       %
+    Expediente 2012, hasta 2012                706     114        6     120    5.0%
+    Literatura general, hasta 2012           6,179   1,727       12   1,739    0.7%
+    Razon entre proporciones                : 7.2 veces
+  SENSIBILIDAD AL ENCUADRE TEMPORAL
+    encuadre                                            expediente           general   razon
+    Hasta 2012 (reportado en la Tabla 7)               6/120  5.0%     12/1739  0.7%     7.2
+    Ventana 2001-2012 (la del apartado 4.2)            5/119  4.2%     10/1279  0.8%     5.4
+    Sin restriccion temporal                           6/120  5.0%     15/2261  0.7%     7.5
+  PERFIL DE LOS AUTORES DOCUMENTADOS EN EL CORPUS (Tabla 6)
+    autor                 clasif.  arts  coaut  cit.obra  pctil  cit.exp  pctil
+    Acquavella, J. F.      Zona 1     9     21        15   52.4     16.0   44.9
+    Kier, L. D.            Zona 1     1      6       7.5   29.9        6   16.1
+    Kroes, R.              Zona 2     1      2       205   99.5      205   99.8
+    Munro, I. C.           Zona 2     1      2        19   62.9      205   99.8
+    Solomon, K. R.         Zona 2    10     15      12.5   45.5     26.0   66.5
+    Williams, G. M.        Zona 2     1      2       205   99.5      205   99.8
+    Distribucion de referencia: 2,210 autores del corpus con citacion disponible, mediana 14.0;
+    2,170 con citacion en el expediente, mediana 17.0.
+  TRAYECTORIA EN LA BASE DE 2018
+    autor                 clasif.  arts       anios  coaut  de Zona 1
+    Acquavella, J. F.      Zona 1     7   1999-2006     21   19 (90%)
+    Kier, L. D.            Zona 1     4   2008-2015      8    7 (88%)
+    Kroes, R.              Zona 2     1   2000-2000      2     0 (0%)
+    Munro, I. C.           Zona 2     3   2000-2004     10    1 (10%)
+    Solomon, K. R.         Zona 2    14   2000-2015     23    3 (13%)
+    Williams, G. M.        Zona 2     1   2000-2000      2     0 (0%)
+    Un autor de Zona 2 puede tener coautores de Zona 1: esos coautores
+    la integran por articulos que el autor no firmo, lo que lo ubica a
+    distancia dos de la afiliacion corporativa declarada.
+  Archivos generados:
+    tabla4_y_recalculo_v4.xlsx
+    reporte_validar_conjunto_documental.txt

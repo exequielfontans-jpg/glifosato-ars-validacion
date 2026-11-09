@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+title: >-
+  Validación de un procedimiento de atribución estructural de vinculación
+  corporativa: el expediente europeo del glifosato
+message: Si usa este código o estos resultados, por favor cite el trabajo.
+type: software
+authors:
+  - family-names: Fontans-Álvarez
+    given-names: Exequiel
+    affiliation: >-
+      Departamento Tratamiento y Transferencia de Información, Facultad de
+      Información y Comunicación, Universidad de la República
+    orcid: "https://orcid.org/0000-0002-4627-4678"
+  - family-names: Sosa
+    given-names: Beatriz
+    affiliation: >-
+      Instituto de Ecología y Ciencias Ambientales, Facultad de Ciencias,
+      Universidad de la República
+    orcid: "https://orcid.org/0000-0002-9259-0516"
+abstract: >-
+  Código y resultados derivados del artículo que evalúa la validez del
+  procedimiento de atribución estructural de vinculación corporativa propuesto
+  en Fontans-Álvarez et al. (2018), aplicado a la lista de literatura publicada
+  del expediente europeo de renovación del glifosato de 2012. El procedimiento
+  se contrasta con un conjunto de validación construido con avisos editoriales
+  publicados, y se mide su sensibilidad a nivel de autor y de artículo.
+keywords:
+  - análisis de redes sociales
+  - redes de coautoría
+  - bibliometría
+  - conflicto de interés
+  - vinculación corporativa
+  - glifosato
+  - evaluación regulatoria
+license: MIT
+version: 1.0.0
+date-released: "2026-11-09"
+# repository-code: "https://github.com/USUARIO/glifosato-ars-validacion"   # TODO
+# doi: "10.5281/zenodo.XXXXXXX"                                           # TODO tras el primer release

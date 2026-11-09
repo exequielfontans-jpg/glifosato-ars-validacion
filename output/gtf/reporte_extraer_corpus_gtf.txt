@@ -1,0 +1,61 @@
+================================================================
+  [CORPUS GTF] - extraer_corpus_gtf_v2
+  Fecha: 2026-08-12 18:36
+================================================================
+
+  Paginas localizadas en el Wayback : 24
+  Paginas efectivamente descargadas : 24
+  Citas unicas parseadas            : 548
+  Citas reconciliadas               : 548
+
+  DOI validado                      : 325 (59.3%)
+  Sin DOI validado                  : 223 (40.7%)
+
+  Motivos de no validacion:
+    SCORE_BAJO                                 117  (21.4%)
+    TITULO_DISTINTO+SCORE_BAJO+ANIO_DISCREPA    50  (9.1%)
+    TITULO_DISTINTO+SCORE_BAJO                  26  (4.7%)
+    TITULO_DISTINTO+SCORE_BAJO+SIN_ANIO         14  (2.6%)
+    SCORE_BAJO+ANIO_DISCREPA                     5  (0.9%)
+    TITULO_DISTINTO                              3  (0.5%)
+    TITULO_DISTINTO+ANIO_DISCREPA                3  (0.5%)
+    ANIO_DISCREPA                                2  (0.4%)
+    SCORE_BAJO+SIN_ANIO                          2  (0.4%)
+    SIN_ANIO                                     1  (0.2%)
+
+  Citas en mas de una categoria     : 96 (17.5%)
+
+  Distribucion por categoria (con solapamiento):
+    microorganismos                                 102
+    anfibios                                         64
+    peces                                            62
+    degradacion                                      58
+    sorcion                                          51
+    micronutrientes                                  48
+    residuos                                         48
+    monitorizacion agricola                          42
+    lixiviacion                                      42
+    monitorizacion urbana                            24
+    tratamiento del agua                             24
+    deriva cultivos                                  19
+    toxicidad evolutiva y reproductiva               15
+    epidemiologia                                    13
+    otros estudios                                   12
+    metabolomica                                     11
+    genotoxicidad                                    11
+    fitotoxicidad                                     7
+    exposicion en la dieta                            6
+    monitorizacion del agua subterranea               6
+    organismos los que no esta dirigida su accion     4
+    neurotoxicidad                                    4
+
+  Rango de anios (solo DOI validado) : 1980 - 2013
+  Mediana                            : 2008
+
+  Archivos generados:
+    urls_gtf_v1.csv
+    citas_gtf_v2.csv
+    categorias_gtf_v2.csv
+    corpus_gtf_v2.csv
+    reporte_extraer_corpus_gtf.txt
+

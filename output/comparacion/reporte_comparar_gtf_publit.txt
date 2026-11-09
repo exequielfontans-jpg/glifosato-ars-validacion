@@ -1,0 +1,30 @@
+================================================================
+  [SOLAPAMIENTO GTF x EXPEDIENTE] - comparar_gtf_publit_v1
+  Fecha: 2026-08-28 10:39
+================================================================
+
+  Sitio del GTF                   : 548
+    de ellas comparables          : 548 (100.0%)
+  Expediente 2012                  : 1,078
+
+  Referencias en ambos corpus     : 517
+    por DOI                       : 227
+    por titulo normalizado        : 290
+
+  Solapamiento sobre el GTF comparable : 94.3%
+  Solapamiento sobre el expediente     : 48.0%
+
+  Solo en el sitio    : 31
+  Solo en el expediente : 564
+
+  VEREDICTO:
+    MISMO CORPUS. El sitio y el expediente presentan el mismo cuer
+    po de literatura. Tratarlos como un unico corpus con dos prese
+    ntaciones y rehacer la Tabla 1.
+
+  NOTA: el porcentaje se calcula sobre las referencias con DOI o
+        titulo utilizable, no sobre el total. Revisar la hoja
+        'Comunes' para verificar algunos casos a mano.
+
+  Archivo: solapamiento_gtf_publit_v1.xlsx
+

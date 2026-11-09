@@ -1,0 +1,46 @@
+# ─── Fuentes sujetas a licencia de terceros ──────────────────────────────────
+# Ver data/README.md. La descarga de la Web of Science y los derivados a nivel
+# de registro que la reproducen no se redistribuyen.
+data/Descargas WOS/
+data/Glif_-_Datos_ARS.xlsx
+data/Glif - AU.xlsx
+data/Glif AU Norm.xlsx
+data/Glif-AU-Normalizado.csv
+data/Rossi*.pdf
+
+# ─── Derivados a nivel de registro ───────────────────────────────────────────
+# Reproducen campos de la base licenciada registro por registro. Los agregados
+# y las planillas auditables que sostienen las tablas del articulo si se
+# publican. Ver output/README.md.
+output/cruce_publit/cruce_publit_v*.csv
+output/cruce_publit/cruce_publit_v*.xlsx
+output/cruce_autores/cruce_autores_publit_v*.csv
+output/cruce_autores/cruce_autores_publit_v*.xlsx
+output/cruce_gtf/cruce_gtf_wos_v*.csv
+output/cruce_gtf/cruce_gtf_wos_v*.xlsx
+output/cruce_gtf/autores_gtf_v*.csv
+output/cruce_publit/autores_publit_v*.csv
+
+# ─── HTML cosechado: se regenera con extraer_corpus_gtf_v2.py ───────────────
+output/gtf/html/
+
+# ─── Checkpoints y temporales ────────────────────────────────────────────────
+*_checkpoint.csv
+*_temp.csv
+*_Exe.xlsx
+
+# ─── Borradores del articulo: viven fuera del repositorio ───────────────────
+Borrador/
+
+# ─── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ─── Sistema operativo y ofimatica ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+~$*.xlsx
+~$*.docx
